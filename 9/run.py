@@ -1,7 +1,5 @@
 def find_sum(array, item):
     for i in range(len(array)-1):
-        # print(f"{item}-{array[i]} in array? {item-array[i] in array}")
-        # print(f"{item}/{array[i]} = {item/array[1]}")
         if item-array[i] in array and item-array[i]!=array[i]:
             return True
     return False
